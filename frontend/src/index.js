@@ -1,6 +1,6 @@
 import render from "./render";
 import "./events";
-import store from "./store/index";
+import store from "./store";
 
 // reRender();
 window.addEventListener("popstate", () => {

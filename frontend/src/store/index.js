@@ -1,5 +1,6 @@
 import render from "../render";
-export default new Store();
+const store = new Store();
+export default store;
 
 class Store {
   constructor() {
